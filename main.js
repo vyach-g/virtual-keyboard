@@ -85,7 +85,8 @@ function renderPage() {
   const tip = document.createElement('div');
   tip.classList.add('tip');
   tip.textContent = `Клавиатура Windows. Переключение языка: зажать LAlt + нажать LShift.
-  Если найдете ошибки, пожалуйста, сообщите по контактам: TG: @attempttobebetter. Discord: Vyach#1703 или @vyach-g`;
+  Если найдете ошибки, пожалуйста, сообщите по контактам: TG: @attempttobebetter. Discord: Vyach#1703 или @vyach-g.
+  Сылка на Pull Request: https://github.com/vyach-g/virtual-keyboard/pull/1`;
   container.append(tip);
 }
 
